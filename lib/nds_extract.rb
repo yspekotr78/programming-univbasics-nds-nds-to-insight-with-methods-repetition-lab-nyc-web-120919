@@ -43,7 +43,7 @@ def total_gross(source)
   index=0
   gross=0
   while index<source.size do
-    gross=directors_totals(source)
+    gross=directors_totals(source[index])
     index+=1
   end
   return gross
