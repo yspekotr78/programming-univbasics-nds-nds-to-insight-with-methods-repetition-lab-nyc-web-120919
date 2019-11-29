@@ -28,7 +28,7 @@ def list_of_directors(source)
   # Write this implementation
   index=0
   list = {}
-  while index<source.length do
+  while index<source.size do
     list += directors_totals(source)
     index+=1
   end
