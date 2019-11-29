@@ -29,6 +29,7 @@ def list_of_directors(source)
   index=0
   list = {}
   while index<source.length do
+    list << directors_totals(source[index])
     index+=1
   end
   return list
